@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento Livraria 📚 </h1>
+
+        <div id="book-form">
+            <h2>Adicionar um novo livro</h2>
+            <input type="text" id="title" placeholder="Título" required>
+            <input type="text" id="description" placeholder="Descrição" required>
+            <input type="text" id="author" placeholder="Autor" required>
+            <button id="add-book">Adicionar livro</button>
+        </div>
+
+        <div id="books-list">
+            <h2>Lista de livros</h2>
+            <ul id="books"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
